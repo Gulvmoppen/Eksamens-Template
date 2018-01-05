@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eksamens_Template
+namespace TCP_Client_Template
 {
     class Program
     {
-        private const int PORT = 7070;
+        private const int PORT = 1111;
         static void Main(string[] args)
         {
-            UDPReciever reciever = new UDPReciever(PORT);
-            reciever.Start();
+            Client client = new Client(PORT);
+            client.Start();
+
             Console.ReadLine();
-            
         }
     }
 }

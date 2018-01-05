@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eksamens Template", "Eksamens Template\Eksamens Template.csproj", "{23C9674A-E309-4907-8181-BABE13E93875}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP Reciever Template", "Eksamens Template\UDP Reciever Template.csproj", "{23C9674A-E309-4907-8181-BABE13E93875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP Sender Template", "UDP Sender Template\UDP Sender Template.csproj", "{0B96018A-E302-43D1-AD8A-0ACEC811A61E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP Client Template", "TCP Client Template\TCP Client Template.csproj", "{AD77A000-2E85-4535-BC12-1B030BE91879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP Server Template", "TCP Server Template\TCP Server Template.csproj", "{57CEB617-0D53-4112-9DC5-952D0F705E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAP Service Template", "SOAP Service Template\SOAP Service Template.csproj", "{5AE21690-9DC4-4CAA-9BC0-B35F535F3387}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{23C9674A-E309-4907-8181-BABE13E93875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23C9674A-E309-4907-8181-BABE13E93875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23C9674A-E309-4907-8181-BABE13E93875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B96018A-E302-43D1-AD8A-0ACEC811A61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B96018A-E302-43D1-AD8A-0ACEC811A61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B96018A-E302-43D1-AD8A-0ACEC811A61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B96018A-E302-43D1-AD8A-0ACEC811A61E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD77A000-2E85-4535-BC12-1B030BE91879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD77A000-2E85-4535-BC12-1B030BE91879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD77A000-2E85-4535-BC12-1B030BE91879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD77A000-2E85-4535-BC12-1B030BE91879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CEB617-0D53-4112-9DC5-952D0F705E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CEB617-0D53-4112-9DC5-952D0F705E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CEB617-0D53-4112-9DC5-952D0F705E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CEB617-0D53-4112-9DC5-952D0F705E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE21690-9DC4-4CAA-9BC0-B35F535F3387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE21690-9DC4-4CAA-9BC0-B35F535F3387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE21690-9DC4-4CAA-9BC0-B35F535F3387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE21690-9DC4-4CAA-9BC0-B35F535F3387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eksamens_Template
+namespace UDP_Sender_Template
 {
     class Program
     {
         private const int PORT = 7070;
         static void Main(string[] args)
         {
-            UDPReciever reciever = new UDPReciever(PORT);
-            reciever.Start();
+            UDPSender sender = new UDPSender(PORT);
+            sender.Start();
+
             Console.ReadLine();
-            
         }
     }
 }

@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eksamens_Template
+namespace TCP_Server_Template
 {
     class Program
     {
-        private const int PORT = 7070;
+        private const int PORT = 1111;
         static void Main(string[] args)
         {
-            UDPReciever reciever = new UDPReciever(PORT);
-            reciever.Start();
+            Server server = new Server(PORT);
+            server.Start();
             Console.ReadLine();
-            
         }
     }
 }
